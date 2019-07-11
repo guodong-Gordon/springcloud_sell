@@ -23,7 +23,7 @@ server:
   port: 8011
 
 env:
-  test5
+  test6
 
 girl:
  name: lili
