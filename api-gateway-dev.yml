@@ -1,0 +1,18 @@
+zuul:
+  routes:
+#    myProduct:
+#      path: /myProduct/**
+#      serviceId: product
+    product: /myProduct/**
+  sensitive-headers:
+
+#配置不对外公开的地址
+#  ignored-patterns:
+#    - /**/product/list
+
+#打开 /actuator/routes 访问权限
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes,filters
