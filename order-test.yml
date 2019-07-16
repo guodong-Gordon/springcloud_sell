@@ -13,7 +13,8 @@ spring:
     enabled: true
   sleuth:
     sampler:
-      probability: 1.0
+      # probability: 1.0
+        percentage: 1
 
   rabbitmq:
     host: 192.168.159.139
