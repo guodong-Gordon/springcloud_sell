@@ -16,3 +16,6 @@ management:
     web:
       exposure:
         include: routes,filters
+
+server:
+  port: 9000
